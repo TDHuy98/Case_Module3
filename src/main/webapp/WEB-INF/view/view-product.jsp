@@ -10,8 +10,8 @@
     <meta content="" name="keywords">
 
     <!-- Favicons -->
-    <link href="resource/assets/img/favicon.png" rel="icon">
-    <link href="resource/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <link href="${pageContext.servletContext.contextPath}resource/assets/img/favicon.png" rel="icon">
+    <link href="${pageContext.servletContext.contextPath}resource/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
     <!-- Google Fonts -->
     <link href="https://fonts.gstatic.com" rel="preconnect">
@@ -68,15 +68,15 @@
     <%--            integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ=="--%>
     <%--            crossorigin="anonymous" referrerpolicy="no-referrer"></script>--%>
     <!-- Template Main CSS File -->
-    <link href="resource/assets/css/style.css" rel="stylesheet">
+    <link href="${pageContext.servletContext.contextPath}resource/assets/css/style.css" rel="stylesheet">
 
 </head>
 <body>
 
-<jsp:include page='/WEB-INF/common/header.jsp'>
+<jsp:include page='/WEB-INF/view-common/header.jsp'>
     <jsp:param name="header" value=""/>
 </jsp:include>
-<jsp:include page='/WEB-INF/common/sidebar.jsp'>
+<jsp:include page='/WEB-INF/view-common/sidebar.jsp'>
     <jsp:param name="asside" value=""/>
 </jsp:include>
 <%--<jsp:include page="WEB-INF/common/footer.jsp">--%>
@@ -250,7 +250,7 @@
                         <div class="col-lg-4 col-md-6 col-sm-12 pb-1">
                             <div class="card product-item border-0 mb-4">
                                 <div class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
-                                    <img class="img-fluid w-100" src="img/product-1.jpg" alt="">
+                                    <img class="img-fluid w-100" src="${pageContext.servletContext.contextPath}img/product-1.jpg" alt="">
                                 </div>
                                 <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
                                     <h6 class="text-truncate mb-3">Colorful Stylish Shirt</h6>
@@ -272,7 +272,7 @@
                         <div class="col-lg-4 col-md-6 col-sm-12 pb-1">
                             <div class="card product-item border-0 mb-4">
                                 <div class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
-                                    <img class="img-fluid w-100" src="img/product-2.jpg" alt="">
+                                    <img class="img-fluid w-100" src="${pageContext.servletContext.contextPath}img/product-2.jpg" alt="">
                                 </div>
                                 <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
                                     <h6 class="text-truncate mb-3">Colorful Stylish Shirt</h6>
@@ -294,7 +294,7 @@
                         <div class="col-lg-4 col-md-6 col-sm-12 pb-1">
                             <div class="card product-item border-0 mb-4">
                                 <div class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
-                                    <img class="img-fluid w-100" src="img/product-3.jpg" alt="">
+                                    <img class="img-fluid w-100" src="${pageContext.servletContext.contextPath}img/product-3.jpg" alt="">
                                 </div>
                                 <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
                                     <h6 class="text-truncate mb-3">Colorful Stylish Shirt</h6>
@@ -316,7 +316,7 @@
                         <div class="col-lg-4 col-md-6 col-sm-12 pb-1">
                             <div class="card product-item border-0 mb-4">
                                 <div class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
-                                    <img class="img-fluid w-100" src="img/product-4.jpg" alt="">
+                                    <img class="img-fluid w-100" src="${pageContext.servletContext.contextPath}img/product-4.jpg" alt="">
                                 </div>
                                 <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
                                     <h6 class="text-truncate mb-3">Colorful Stylish Shirt</h6>
@@ -338,7 +338,7 @@
                         <div class="col-lg-4 col-md-6 col-sm-12 pb-1">
                             <div class="card product-item border-0 mb-4">
                                 <div class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
-                                    <img class="img-fluid w-100" src="img/product-5.jpg" alt="">
+                                    <img class="img-fluid w-100" src="${pageContext.servletContext.contextPath}img/product-5.jpg" alt="">
                                 </div>
                                 <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
                                     <h6 class="text-truncate mb-3">Colorful Stylish Shirt</h6>
@@ -360,7 +360,7 @@
                         <div class="col-lg-4 col-md-6 col-sm-12 pb-1">
                             <div class="card product-item border-0 mb-4">
                                 <div class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
-                                    <img class="img-fluid w-100" src="img/product-6.jpg" alt="">
+                                    <img class="img-fluid w-100" src="${pageContext.servletContext.contextPath}img/product-6.jpg" alt="">
                                 </div>
                                 <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
                                     <h6 class="text-truncate mb-3">Colorful Stylish Shirt</h6>
@@ -382,7 +382,7 @@
                         <div class="col-lg-4 col-md-6 col-sm-12 pb-1">
                             <div class="card product-item border-0 mb-4">
                                 <div class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
-                                    <img class="img-fluid w-100" src="img/product-7.jpg" alt="">
+                                    <img class="img-fluid w-100" src="${pageContext.servletContext.contextPath}img/product-7.jpg" alt="">
                                 </div>
                                 <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
                                     <h6 class="text-truncate mb-3">Colorful Stylish Shirt</h6>
@@ -404,7 +404,7 @@
                         <div class="col-lg-4 col-md-6 col-sm-12 pb-1">
                             <div class="card product-item border-0 mb-4">
                                 <div class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
-                                    <img class="img-fluid w-100" src="img/product-8.jpg" alt="">
+                                    <img class="img-fluid w-100" src="${pageContext.servletContext.contextPath}img/product-8.jpg" alt="">
                                 </div>
                                 <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
                                     <h6 class="text-truncate mb-3">Colorful Stylish Shirt</h6>
@@ -426,7 +426,7 @@
                         <div class="col-lg-4 col-md-6 col-sm-12 pb-1">
                             <div class="card product-item border-0 mb-4">
                                 <div class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
-                                    <img class="img-fluid w-100" src="img/product-1.jpg" alt="">
+                                    <img class="img-fluid w-100" src="${pageContext.servletContext.contextPath}img/product-1.jpg" alt="">
                                 </div>
                                 <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
                                     <h6 class="text-truncate mb-3">Colorful Stylish Shirt</h6>
@@ -471,65 +471,6 @@
                 <!-- Shop Product End -->
             </div>
         </div>
-
-        <table id="example" class="table table-striped" style="width:100%">
-            <thead>
-            <tr>
-                <th>Tên sản phẩm</th>
-                <th>Mã sản phẩm</th>
-                <th>Hãng</th>
-                <th>Năm sản xuất</th>
-                <th>Giá</th>
-            </tr>
-            </thead>
-            <tbody>
-            <tr>
-                <td>Tiger Nixon</td>
-                <td>System Architect</td>
-                <td>Edinburgh</td>
-                <td>2011-04-25</td>
-                <td>$320,800</td>
-            </tr>
-            <tr>
-                <td>Garrett Winters</td>
-                <td>Accountant</td>
-                <td>Tokyo</td>
-                <td>2011-07-25</td>
-                <td>$170,750</td>
-            </tr>
-            <tr>
-                <td>Ashton Cox</td>
-                <td>Junior Technical Author</td>
-                <td>San Francisco</td>
-                <td>2009-01-12</td>
-                <td>$86,000</td>
-            </tr>
-            <tr>
-                <td>Cedric Kelly</td>
-                <td>Senior Javascript Developer</td>
-                <td>Edinburgh</td>
-                <td>2012-03-29</td>
-                <td>$433,060</td>
-            </tr>
-            <tr>
-                <td>Airi Satou</td>
-                <td>Accountant</td>
-                <td>Tokyo</td>
-                <td>2008-11-28</td>
-                <td>$162,700</td>
-            </tr>
-            </tbody>
-            <tfoot>
-            <tr>
-                <th>Name</th>
-                <th>Position</th>
-                <th>Office</th>
-                <th>Age</th>
-                <th>Start date</th>
-                <th>Salary</th>
-            </tr>
-            </tfoot>
-        </table>
     </section>
 
 </main><!-- End #main -->
@@ -550,7 +491,7 @@
 <%--<script src="resource/assets/vendor/php-email-form/validate.js"></script>--%>
 
 <!-- Template Main JS File -->
-<script src="resource/assets/js/main.js"></script>
+<script src="${pageContext.servletContext.contextPath}resource/assets/js/main.js"></script>
 
 </body>
 

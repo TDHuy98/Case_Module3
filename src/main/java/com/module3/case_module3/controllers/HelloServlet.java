@@ -1,4 +1,4 @@
-package com.module3.case_module3;
+package com.module3.case_module3.controllers;
 
 import java.io.*;
 

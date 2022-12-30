@@ -7,13 +7,13 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <title>Tran Huy Media Mart</title>
+    <title>EShopper</title>
     <meta content="" name="description">
     <meta content="" name="keywords">
 
     <!-- Favicons -->
-    <link href="${pageContext.servletContext.contextPath}/resource/assets/img/favicon.png" rel="icon">
-    <link href="${pageContext.servletContext.contextPath}/resource/assets/img/apple-touch-icon.png"
+    <link href="${pageContext.servletContext.contextPath}resource/assets/img/favicon.png" rel="icon">
+    <link href="${pageContext.servletContext.contextPath}resource/assets/img/apple-touch-icon.png"
           rel="apple-touch-icon">
 
     <!-- Google Fonts -->
@@ -47,15 +47,15 @@
     <link href="https://cdn.jsdelivr.net/npm/simple-datatables@latest/dist/style.css" rel="stylesheet" type="text/css">
 
     <!-- Template Main CSS File -->
-    <link href="resource/assets/css/style.css" rel="stylesheet">
+    <link href="${pageContext.servletContext.contextPath}resource/assets/css/style.css" rel="stylesheet">
 </head>
 
 
 <body>
-<jsp:include page='/WEB-INF/common/header.jsp'>
+<jsp:include page='/WEB-INF/view-common/header.jsp'>
     <jsp:param name="header" value=""/>
 </jsp:include>
-<jsp:include page='/WEB-INF/common/sidebar.jsp'>
+<jsp:include page='/WEB-INF/view-common/sidebar.jsp'>
     <jsp:param name="asside" value=""/>
 </jsp:include>
 <%--<jsp:include page="WEB-INF/common/footer.jsp">--%>
@@ -81,7 +81,7 @@
                 <div class="card">
                     <div class="card-body profile-card pt-4 d-flex flex-column align-items-center">
 
-                        <img src="${pageContext.servletContext.contextPath}/resource/assets/img/blank-user.png"
+                        <img src="${pageContext.servletContext.contextPath}resource/assets/img/blank-user.png"
                              alt="Profile" class="rounded-circle">
                         <h2>User's name</h2>
                         <h3>Somethings</h3>
@@ -165,7 +165,7 @@
                                                                                  class="col-md-4 col-lg-3 col-form-label">Profile
                                         Image</label>
                                         <div class="col-md-8 col-lg-9">
-                                            <img src="${pageContext.servletContext.contextPath}/resource/assets/img/blank-user.png"
+                                            <img src="${pageContext.servletContext.contextPath}resource/assets/img/blank-user.png"
                                                  alt="Profile">
                                             <div class="pt-2">
                                                 <a href="#" class="btn btn-primary btn-sm"
@@ -394,7 +394,7 @@
 <%--<script src="${pageContext.servletContext.contextPath}/resource/assets/vendor/php-email-form/validate.js"></script>--%>
 
 <!-- Template Main JS File -->
-<script src="${pageContext.servletContext.contextPath}/resource/assets/js/main.js"></script>
+<script src="${pageContext.servletContext.contextPath}resource/assets/js/main.js"></script>
 
 </body>
 

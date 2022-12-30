@@ -19,8 +19,8 @@
     <meta content="" name="keywords">
 
     <!-- Favicons -->
-    <link href="resource/assets/img/favicon.png" rel="icon">
-    <link href="resource/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <link href="${pageContext.servletContext.contextPath}resource/assets/img/favicon.png" rel="icon">
+    <link href="${pageContext.servletContext.contextPath}resource/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
     <!-- Google Fonts -->
     <link href="https://fonts.gstatic.com" rel="preconnect">
@@ -77,7 +77,7 @@
             crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
     <!-- Template Main CSS File -->
-    <link href="resource/assets/css/style.css" rel="stylesheet">
+    <link href="${pageContext.servletContext.contextPath}resource/assets/css/style.css" rel="stylesheet">
 </head>
 
 <body>
@@ -271,7 +271,7 @@
                 </ul>
                 <a id="userprofile" class="nav-link nav-profile d-flex align-items-center pe-0 visually-hidden" href="#"
                    data-bs-toggle="dropdown">
-                    <img src="resource/assets/img/blank-user.png" alt="Profile" class="rounded-circle">
+                    <img src="${pageContext.servletContext.contextPath}resource/assets/img/blank-user.png" alt="Profile" class="rounded-circle">
                     <span class="d-none d-md-block dropdown-toggle ps-2">Account</span>
                 </a><!-- End Profile Iamge Icon -->
 

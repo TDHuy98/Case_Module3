@@ -12,8 +12,8 @@
     <meta content="" name="keywords">
 
     <!-- Favicons -->
-    <link href="resource/assets/img/favicon.png" rel="icon">
-    <link href="resource/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <link href="${pageContext.servletContext.contextPath}resource/assets/img/favicon.png" rel="icon">
+    <link href="${pageContext.servletContext.contextPath}resource/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
     <!-- Google Fonts -->
     <link href="https://fonts.gstatic.com" rel="preconnect">
@@ -48,7 +48,7 @@
     <!--Vendor JS file-->
 
     <!-- Template Main CSS File -->
-    <link href="resource/assets/css/style.css" rel="stylesheet">
+    <link href="${pageContext.servletContext.contextPath}resource/assets/css/style.css" rel="stylesheet">
 
 </head>
 

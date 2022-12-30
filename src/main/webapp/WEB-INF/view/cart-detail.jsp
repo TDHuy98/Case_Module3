@@ -12,8 +12,8 @@
     <meta content="" name="keywords">
 
     <!-- Favicons -->
-    <link href="resource/assets/img/favicon.png" rel="icon">
-    <link href="resource/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <link href="${pageContext.servletContext.contextPath}resource/assets/img/favicon.png" rel="icon">
+    <link href="${pageContext.servletContext.contextPath}resource/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
     <!-- Google Fonts -->
     <link href="https://fonts.gstatic.com" rel="preconnect">
@@ -52,16 +52,16 @@
     <!--Vendor JS file-->
 
     <!-- Template Main CSS File -->
-    <link href="resource/assets/css/style.css" rel="stylesheet">
+    <link href="${pageContext.servletContext.contextPath}resource/assets/css/style.css" rel="stylesheet">
 
 </head>
 
 
 <body>
-<jsp:include page='/WEB-INF/common/header.jsp'>
+<jsp:include page='/WEB-INF/view-common/header.jsp'>
     <jsp:param name="header" value=""/>
 </jsp:include>
-<jsp:include page='/WEB-INF/common/sidebar.jsp'>
+<jsp:include page='/WEB-INF/view-common/sidebar.jsp'>
     <jsp:param name="asside" value=""/>
 </jsp:include>
 <%--<jsp:include page="WEB-INF/common/footer.jsp">--%>
@@ -86,7 +86,7 @@
                         </thead>
                         <tbody class="align-middle">
                         <tr>
-                            <td class="align-middle"><img src="img/product-1.jpg" alt="" style="width: 50px;"> Colorful
+                            <td class="align-middle"><img src="${pageContext.servletContext.contextPath}img/product-1.jpg" alt="" style="width: 50px;"> Colorful
                                 Stylish Shirt
                             </td>
                             <td class="align-middle">$150</td>
@@ -112,7 +112,7 @@
                             </td>
                         </tr>
                         <tr>
-                            <td class="align-middle"><img src="img/product-2.jpg" alt="" style="width: 50px;"> Colorful
+                            <td class="align-middle"><img src="${pageContext.servletContext.contextPath}img/product-2.jpg" alt="" style="width: 50px;"> Colorful
                                 Stylish Shirt
                             </td>
                             <td class="align-middle">$150</td>
@@ -138,7 +138,7 @@
                             </td>
                         </tr>
                         <tr>
-                            <td class="align-middle"><img src="img/product-3.jpg" alt="" style="width: 50px;"> Colorful
+                            <td class="align-middle"><img src="${pageContext.servletContext.contextPath}img/product-3.jpg" alt="" style="width: 50px;"> Colorful
                                 Stylish Shirt
                             </td>
                             <td class="align-middle">$150</td>
@@ -164,7 +164,7 @@
                             </td>
                         </tr>
                         <tr>
-                            <td class="align-middle"><img src="img/product-4.jpg" alt="" style="width: 50px;"> Colorful
+                            <td class="align-middle"><img src="${pageContext.servletContext.contextPath}img/product-4.jpg" alt="" style="width: 50px;"> Colorful
                                 Stylish Shirt
                             </td>
                             <td class="align-middle">$150</td>
@@ -190,7 +190,7 @@
                             </td>
                         </tr>
                         <tr>
-                            <td class="align-middle"><img src="img/product-5.jpg" alt="" style="width: 50px;"> Colorful
+                            <td class="align-middle"><img src="${pageContext.servletContext.contextPath}img/product-5.jpg" alt="" style="width: 50px;"> Colorful
                                 Stylish Shirt
                             </td>
                             <td class="align-middle">$150</td>
@@ -287,7 +287,7 @@
 <%--<script src="resource/assets/vendor/php-email-form/validate.js"></script>--%>
 
 <!-- Template Main JS File -->
-<script src="resource/assets/js/main.js"></script>
+<script src="${pageContext.servletContext.contextPath}resource/assets/js/main.js"></script>
 
 </body>
 
